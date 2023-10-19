@@ -78,7 +78,8 @@ VALUES
 (1, 'Deposit', 50000),
 (1, 'Deposit', 4000000),
 (1, 'Withdrawal', -100000),
-(2, 'Deposit', 100000);
+(2, 'Deposit', 100000),
+(2, 'Deposit', 350000);
 
 UPDATE transaksi SET Amount = 2000 where id = 1; 
 
